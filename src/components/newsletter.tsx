@@ -3,7 +3,7 @@ import { TfiEmail } from "react-icons/tfi";
 export default function NewsLetter() {
   return (
     <>
-      <div className=" w-[435px] h-auto md:w-[1240px] md:h-[180px] flex items-center justify-between gap-4 flex-col md:flex-row ml-8 md:ml-[100px] rounded-[20px] bg-black py-9 px-16 ">
+      <div className=" w-[392px] h-auto md:w-[1240px] md:h-[180px] flex items-center justify-between gap-4 flex-col md:flex-row ml-8 md:ml-[150px] rounded-[20px] bg-black py-9 px-16 ">
 
         {/* left div */}
         <div className=" flex-1 text-[40px] font-bold leading-[45px] text-white font-integral text-wrap   ">

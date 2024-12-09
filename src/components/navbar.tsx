@@ -5,6 +5,7 @@ import { IoIosSearch } from "react-icons/io";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegUserCircle } from "react-icons/fa";
 
+
 export default function Navbar() {
   return (
     <div className="bg-white m-auto py-5 ">
@@ -34,12 +35,12 @@ export default function Navbar() {
         <div className="  md:flex items-center md:justify-between gap-[24px] font-satoshi ">
           <ul className=" hidden md:text-[16px] font-normal leading-[21.6px] md:flex items-center gap-6">
             <li className="flex items-center font-satoshi">
-              Shop
+              <Link href={"/casual"} >Shop</Link>
               <IoIosArrowDown className="ml-1" />
             </li>
-            <li>On Sale</li>
-            <li>New Arrivals</li>
-            <li>Brands</li>
+            <li><Link href={"/casual"}>On Sale</Link></li>
+            <li><Link href={"/GraphicTshirt"}>New Arrivals</Link></li>
+            <li><Link href={"/casual"}>Brands</Link></li>
           </ul>
           {/*  search div */}
 
@@ -55,7 +56,7 @@ export default function Navbar() {
             {/* cart logo div */}
 
             <div className=" w-[62px] h-[24px] ml-5 flex items-center justify-between relative">
-              <FiShoppingCart className="w-5 h-5" />
+              <Link href={"/cart"}><FiShoppingCart className="w-5 h-5" /></Link>
               <FaRegUserCircle className="w-5 h-5" />
             </div>
           </div>

@@ -11,15 +11,14 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
+     
       <Hero />
       <Logobar />
       <Arrivals />
       <TopSelling />
       <DressStyle />
       <HappyCustomers />
-      <NewsLetter />
-      <Footer />
+     
     </>
   );
 }
